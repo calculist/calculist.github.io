@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-foo
+Calculist was created by [Dan Allison](https://github.com/danallison)

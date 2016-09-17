@@ -20,7 +20,7 @@ description: > # this means to ignore newlines until "baseurl:"
   It's an open-source web + desktop application designed to facilitate effective thinking.
   It's a powerful tool for processing both qualitative and quantitative information.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://calculist.io" # the base hostname & protocol for your site
+url: "https://calculist.github.io" # the base hostname & protocol for your site
 twitter_username: calculist_io
 github_username:  calculist
 
