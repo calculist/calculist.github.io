@@ -2,25 +2,29 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 12px -4px rgba(0,0,0,0.3);
     min-height: 56px;
+    background-color: #fff;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
 .site-title {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
+    // font-size: 26px;
+    // font-weight: 300;
+    // line-height: 56px;
+    // letter-spacing: -1px;
+    // margin-bottom: 0;
+    // float: left;
+    //
+    // &,
+    // &:visited {
+    //     color: $grey-color-dark;
+    // }
+    img {
+      margin: 12px 0 0 0;
     }
 }
 
@@ -93,7 +97,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid rgba(0,0,0,0.3);
     padding: $spacing-unit 0;
 }
 
