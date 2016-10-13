@@ -17,7 +17,7 @@ title: Calculist
 email: dan@calculist.io
 description: > # this means to ignore newlines until "baseurl:"
   Calculist is a better way to manage information.
-  It's an open-source web + desktop application designed to facilitate effective thinking.
+  It's an open-source web+desktop application designed to facilitate effective thinking.
   It's a powerful tool for processing both qualitative and quantitative information.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://calculist.github.io" # the base hostname & protocol for your site
