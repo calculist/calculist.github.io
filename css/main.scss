@@ -40,12 +40,12 @@ $on-laptop:        800px;
 // Import partials from the `minima` theme.
 @import "minima";
 
-.home {
+.home, .post {
   background-color: #fff;
   box-shadow: 0 0 7px 0 rgba(0,0,0,0.5);
   padding: 12px;
   overflow: hidden;
-  h2, div {
+  .central {
     text-align: center;
   }
   iframe {

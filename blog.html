@@ -1,10 +1,12 @@
 ---
 layout: default
+title: Blog
+permalink: /blog
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Blog</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -12,8 +14,9 @@ layout: default
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+          <a class="post-link" href="{{ post.url }}">{{ post.title | escape }}</a>
         </h2>
+        <div>{{post.content}}</div>
       </li>
     {% endfor %}
   </ul>
