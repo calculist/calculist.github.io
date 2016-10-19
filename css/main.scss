@@ -4,6 +4,7 @@
 @charset "utf-8";
 
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
 
 // Our variables
 $base-font-family: "Ubuntu", Courier, monospace;
@@ -52,5 +53,19 @@ $on-laptop:        800px;
     display: block;
     margin: 12px auto;
     box-shadow: 0 0 7px 0 rgba(0,0,0,0.5);
+  }
+}
+code {
+  font-family: 'Ubuntu Mono', 'Ubuntu', monospace;
+}
+.blog {
+  h1 {
+    font-family: 'Ubuntu Mono', 'Ubuntu', monospace;
+    font-size: 32px;
+    font-weight: bold;
+    color: #4b4b4d;
+  }
+  .calcu {
+    color: deepskyblue;
   }
 }
