@@ -24,6 +24,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://calculist.github.io" # the base hostname & protocol for your site
 twitter_username: calculist_io
 github_username:  calculist
+google_analytics: UA-78827825-1
 
 # Build settings
 markdown: kramdown
