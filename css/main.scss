@@ -24,10 +24,10 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    860px;
 
 $on-palm:          600px;
-$on-laptop:        800px;
+$on-laptop:        860px;
 
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:
@@ -43,9 +43,10 @@ $on-laptop:        800px;
 
 .home, .post {
   background-color: #fff;
-  box-shadow: 0 0 7px 0 rgba(0,0,0,0.5);
+  // box-shadow: 0 0 7px 0 rgba(0,0,0,0.5);
   padding: 12px;
   overflow: hidden;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
   .central {
     text-align: center;
   }
