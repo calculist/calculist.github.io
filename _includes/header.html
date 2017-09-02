@@ -16,11 +16,8 @@
       </a>
 
       <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url }}">{{ my_page.title | escape }}</a>
-          {% endif %}
-        {% endfor %}
+        <a class="page-link" href="/about">About</a>
+        <a class="page-link" href="/blog">Blog</a>
         <a class="page-link" href="https://app.calculist.io/login">Sign in</a>
       </div>
     </nav>
