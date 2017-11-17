@@ -23,4 +23,4 @@ More specifically, Calculist combines the functionality of outliner apps such as
 Calculist is 100% open source (MIT license). It exists as a
 desktop app&nbsp;and a web app.&nbsp;The desktop app is&nbsp;<a href="https://github.com/calculist/calculist-desktop/releases" target="_blank">free to download</a>, and the web app is&nbsp;<a href="https://app.calculist.io/join" target="_blank">free to join</a> (or&nbsp;<a href="https://github.com/calculist/calculist-web" target="_blank">download</a>).<br>
 <br>
-Calculist was started by [Dan Allison](https://www.patreon.com/calculist).
+Calculist is built by [Dan Allison](https://danallison.github.io/). You can support Dan's work on Calculist through [Patreon](https://www.patreon.com/calculist).
