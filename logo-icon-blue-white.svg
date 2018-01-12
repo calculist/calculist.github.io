@@ -3,9 +3,9 @@
     <style type="text/css">
      <![CDATA[
       .fil1 {fill:#03a9f4}
-      .fil0 {fill:#4B4B4D}
+      .fil0 {fill:#FEFEFE}
       .fil2 {fill:#03a9f4;fill-rule:nonzero}
-      .fil3 {fill:#4B4B4D;fill-rule:nonzero}
+      .fil3 {fill:#FEFEFE;fill-rule:nonzero}
      ]]>
     </style>
   </defs>

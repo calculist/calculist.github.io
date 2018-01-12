@@ -2,10 +2,10 @@
   <defs>
    <style type="text/css">
     <![CDATA[
-     .fil1 {fill:#00bfff}
-     .fil0 {fill:#4B4B4D}
-     .fil2 {fill:#00bfff;fill-rule:nonzero}
-     .fil3 {fill:#4B4B4D;fill-rule:nonzero}
+     .fil1 {fill:#03a9f4}
+     .fil0 {fill:#212121}
+     .fil2 {fill:#03a9f4;fill-rule:nonzero}
+     .fil3 {fill:#212121;fill-rule:nonzero}
     ]]>
    </style>
   </defs>
