@@ -1,0 +1,60 @@
+---
+layout: default
+title: Calculist Markup
+---
+<style>
+  code {
+    background-color: rgba(0,0,0,0.2);
+    padding: 2px;
+  }
+  code .etc {
+    opacity: 0.3;
+  }
+</style>
+<div class="container">
+  <div class="section">
+
+  <div class="section">
+    <div class="row center" style="width:56%;text-align:justify;margin:0 auto;">
+      <h3 style="text-align:center;">Calculist, the Markup Language</h3>
+      <p>Calculist provides a powerful GUI, but under the hood is simple plaintext. This means Calculist documents work seamlessly with text editors and line-based version control systems like Git.</p>
+      <p>The markup language follows a few basic rules:</p>
+      <ol style="min-width:min-content;max-width:max-content;margin-left:auto;margin-right:auto;font-size:18px;font-weight:lighter;">
+        <li>One line of text = one list item.</li>
+        <li>Indentation indicates nesting.</li>
+        <li>Special syntax always begins with a backslash <code>\</code>.</li>
+      </ol>
+      <h3 style="text-align:center;">Slash Elements</h3>
+      <p>All special syntax elements (slash elements) start with a backslash character.</p>
+
+      <h5>Linking</h5>
+      <ul>
+        <li><code>\id[<span class="etc">unique name</span>]</code> for assigning a unique identifier to an item</li>
+        <li><code>\ref[<span class="etc">id</span>]</code> for linking one item to another</li>
+        <li><code>\lookup[<span class="etc">id / path</span>]</code> for embedding the value of one item in another</li>
+      </ul>
+      <h5>Computation</h5>
+      <ul>
+        <li><code>\: <span class="etc">value</span></code> for defining a plain value (numeric or textual)</li>
+        <li><code>\= <span class="etc">expression</span></code> for computing a value</li>
+        <li><code>\(<span class="etc">input</span>) = <span class="etc">expression</span></code> for defining a function</li>
+      </ul>
+      <h5>Content</h5>
+      <ul>
+        <li><code>\image[<span class="etc">https://...</span>]</code></li>
+        <li><code>\link[<span class="etc">https://...</span>]</code></li>
+        <li><code>\emoji[<span class="etc">U+1F4DD</span>]</code></li>
+        <li><code>\metadata[<span class="etc">...</span>]</code></li>
+      </ul>
+      <h5>Format</h5>
+      <ul>
+        <li><code>\header</code></li>
+        <li><code>\bold[<span class="etc">...</span>]</code>, <code>\italic[<span class="etc">...</span>]</code></li>
+        <li><code>\highlight[<span class="etc">...</span>]</code></li>
+        <li><code>\LaTeX[<span class="etc">...</span>]</code></li>
+      </ul>
+      <h5>Custom</h5>
+      <p>Custom slash elements can be defined under slash dot <code>\.</code> to, for example, create shorthand names for commonly used slash elements.</p>
+    </div>
+  </div>
+</div>
